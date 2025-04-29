@@ -1,24 +1,25 @@
 <html>
-	<head>
-		<title> About Me! </title>
-	</head>
-	<body text="turquoise" bgcolor="black">
-	<marquee direction="down"> <Font size=6> Acel </font> </marquee>
-	<hr width="95%" color="turquoise">
-	<p align="Right"> Home | Biodata </p>
-	<marquee direction="left"> <img src="pic2.jpg" width="100" height="100"> </marquee>
-	<hr width="95%" color="turquoise">
-	
-	<p align="center"> <h1> Makanan favorit </a> </p>
-	<p> <font color="grey"> 
-	<ol type="circle">
-	<li> Ice Cream </li>
-	<li> Cookies </li>
-	<li> Salad </li>
-	</font>
-	
-	<hr width="95%" color="turquoise">
-	
-	<p align="center"> <font color="grey"> Copyright &copy; </font> 2025 </p>
-	</body>
+<head>
+  <title>Reminder Acel</title>
+</head>
+<body bgcolor="black" text="turquoise">
+  <h1>Hai, Acel!🪸</h1>
+  <p>Jangan lupa:</p>
+  <ul>
+    <li>Kerjakan tugas Perancangan Web.</li>
+    <li>Minum air putih yang cukup.</li>
+    <li>Buat playlist baru di spotify.</li>
+    <li>Minum matcha!.</li>
+  </ul>
+
+  <button onclick="showMessage()">Klik aku!</button>
+
+  <p id="message"></p>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").innerHTML = "SEMANGAAAAT ACEL!!! 🧋";
+    }
+  </script>
+</body>
 </html>
